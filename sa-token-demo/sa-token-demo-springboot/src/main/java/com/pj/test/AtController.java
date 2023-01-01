@@ -25,6 +25,7 @@ public class AtController {
 	@SaCheckLogin
 	@RequestMapping("checkLogin")
 	public SaResult checkLogin() {
+		
 		return SaResult.ok();
 	}
 	
